@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movify Packers and Movers </title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+<!-- 🌟 Favicon for Movify Packers & Movers -->
+<link rel="icon" type="image/png" href="images/Logo.png">
+
+
+</head>
+<body>
+
+ <!-- ✈️ Loader Start -->
+<div id="loader">
+  <div class="loader-content">
+    <i class="fas fa-plane"></i>
+    <p>Loading...</p>
+  </div>
+</div>
+  <!-- ✈️ Loader End -->
+
+  <!-- 🌐 Your Website Content (hidden until load) -->
+  <div id="content" style="display:none;">
+
+  <!-- 🔴 Top Bar -->
+  <div class="top-bar">
+    <!-- Left Side (Contact info) -->
+    <div class="top-left">
+      <a href="tel:+917550127216" class="contact-item">
+        <div class="icon-circle"><i class="fas fa-phone"></i></div>
+        <span>+91 7550127216</span>
+      </a>
+      <a href="mailto:info@example.com" class="contact-item">
+        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+        <span>themovify25@gmail.com</span>
+      </a>
+      <a href="https://www.google.com/maps/search/?api=1&query=No:90/1,+5th+Street,+Kamaraj+Nagar,+Avadi,+Chennai+600071" target="_blank" class="contact-item">
+        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+        <span>Chennai</span>
+      </a>
+      <a href="https://wa.me/917550127216" target="_blank" class="contact-item">
+        <div class="icon-circle"><i class="fab fa-whatsapp"></i></div>
+        <span>whatapp</span>
+      </a>
+    </div>
+
+    <!-- Right Side (Socials) -->
+    <div class="top-right">
+      <a href="#"><div class="icon-circle"><i class="fab fa-facebook-f"></i></div></a>
+      <a href="#"><div class="icon-circle"><i class="fab fa-instagram"></i></div></a>
+      <a href="#gallery"><div class="icon-circle"><i class="fas fa-image"></i></div></a>
+    </div>
+  </div>
+   
+   <!-- 🔵 Scrolling Section -->
+  <div class="scrolling-section">
+  <div class="scrolling-text">
+    <b>
+      Movify Packers and Movers – Anna Nagar | 
+      Movify Packers and Movers – Adyar | 
+      Movify Packers and Movers – T. Nagar | 
+      Movify Packers and Movers – Velachery | 
+      Movify Packers and Movers – Tambaram | 
+      Movify Packers and Movers – Pallavaram | 
+      Movify Packers and Movers – Ambattur | 
+      Movify Packers and Movers – Avadi | 
+      Movify Packers and Movers – Coimbatore | 
+      Movify Packers and Movers – Madurai | 
+      Movify Packers and Movers – Salem | 
+      Movify Packers and Movers – Tiruchirappalli | 
+      Movify Packers and Movers – Vellore | 
+      Movify Packers and Movers – Erode | 
+      Movify Packers and Movers – Thanjavur | 
+      Movify Packers and Movers – Thoothukudi | 
+      Movify Packers and Movers – Kanchipuram | 
+      Movify Packers and Movers – Bangalore | 
+      Movify Packers and Movers – Hyderabad | 
+      Movify Packers and Movers – Pune | 
+      Movify Packers and Movers – Mumbai | 
+      Movify Packers and Movers – Delhi / NCR | 
+      Movify Packers and Movers – Jaipur | 
+      Movify Packers and Movers – Kolkata | 
+      Movify Packers and Movers – Chandigarh | 
+      Movify Packers and Movers – Ahmedabad | 
+      Movify Packers and Movers – Lucknow
+    </b>
+  </div>
+</div>
+
+
+  <div class="topnav" id="myTopnav">
+  <!-- Logo -->
+  <div class="logo">
+    <img src="Images/Logo.png" alt="Movify Logo">
+  </div>
+
+  <!-- Menu with icons -->
+  <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+  <a href="#about"><i class="fa fa-info-circle"></i> About Us</a>
+
+<!-- Our Services Dropdown -->
+  <div class="dropdown" onclick="toggleDropdown(this)">
+    <a href="javascript:void(0)"><i class="fa fa-cogs"></i> Our Services ▾</a>
+    <div class="dropdown-content">
+      <a href="#services">Local Household Shifting</a>
+      <a href="#services">Residential & Commercial Moving</a>
+      <a href="#services">Long Distance Moving</a>
+      <a href="#services">Office Shifting</a>
+      <a href="#services">Packers and Movers</a>
+      <a href="#services">Intercity Relocation</a>
+      <a href="#services">Furniture Moving</a>
+      <a href="#services">Car Transportation</a>
+      <a href="#services">Bike Transport</a>
+      <a href="#services">Packing & Unpacking</a>
+    </div>
+  </div>
+
+  <!-- Service Areas Dropdown -->
+  <div class="dropdown" onclick="toggleDropdown(this)">
+    <a href="javascript:void(0)"><i class="fa fa-map-marker-alt"></i> Service Areas ▾</a>
+    <div class="dropdown-content">
+      <a href="#service-areas">Chennai to Villupuram</a>
+      <a href="#service-areas">Chennai to Pondy</a>
+      <a href="#service-areas">Chennai to Trichy</a>
+      <a href="#service-areas">Chennai to Bangalore</a>
+      <a href="#service-areas">Chennai to Kerala</a>
+      <a href="#service-areas">All India Relocation</a>
+    </div>
+  </div>
+
+  <a href="#why"><i class="fa fa-question-circle"></i> Why</a>
+  <a href="#gallery"><i class="fa fa-image"></i> Gallery</a>
+  <a href="#contact"><i class="fa fa-envelope"></i> Contact Us</a>
+<a href="#quote" class="free-quote-btn">
+  <span class="btn-text">Get a Free Quote</span>
+  <span class="circle"></span>
+</a>
+
+<!-- Mobile Hamburger -->
+  <span class="hamburger" onclick="toggleNav()" id="menuIcon">&#9776;</span>
+</div>
+
+
+<!-- MOBILE NAVBAR (visible on mobile only) -->
+<div class="mobile-navbar">
+  <img src="Images/Logo.png" alt="Movify Logo" class="mobile-logo">
+  <span class="mobile-hamburger" id="mobileMenuBtn">
+    <i class="fa fa-bars"></i>
+  </span>
+</div>
+
+<!-- MOBILE NAV OVERLAY -->
+<div class="mobile-nav-overlay" id="mobileNavOverlay">
+  <nav class="mobile-nav-content">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#about" class="mobile-link">About Us</a>
+    <div class="mobile-dropdown">
+        <div class="mobile-link mobile-dropdown-toggle">Our Services <i class="fa fa-angle-down"></i></div>
+        <div class="mobile-dropdown-menu">
+        <a href="#services">Local Household Shifting</a>
+        <a href="#services">Residential & Commercial Moving</a>
+        <a href="#services">Long Distance Moving</a>
+        <a href="#services">Office Shifting</a>
+        <a href="#services">Packers and Movers</a>
+        <a href="#services">Intercity Relocation</a>
+        <a href="#services">Furniture Moving</a>
+        <a href="#services">Car Transportation</a>
+        <a href="#services">Bike Transport</a>
+        <a href="#services">Packing & Unpacking</a>
+      </div>
+    </div>
+    <div class="mobile-dropdown">
+        <div class="mobile-link mobile-dropdown-toggle"> Services Areas<i class="fa fa-angle-down"></i></div>
+  <div class="mobile-dropdown-menu">
+       <a href="#service-areas">Chennai to Villupuram</a>
+        <a href="#service-areas">Chennai to Pondy</a>
+        <a href="#service-areas">Chennai to Trichy</a>
+        <a href="#service-areas">Chennai to Bangalore</a>
+        <a href="#service-areas">Chennai to Kerala</a>
+        <a href="#service-areas">All India Relocation</a>
+      </div>
+    </div>
+    <a href="#why" class="mobile-link">Why</a>
+    <a href="#gallery" class="mobile-link">Gallery</a>
+    <a href="#contact" class="mobile-link">Contact Us</a>
+  <a href="#quote" class="mobile-link free-quote-btn-mobile" id="mobileFreeQuoteBtn">
+  <span class="quote-btn-text">Get a Free Quote</span>
+</a>
+  </nav>
+</div>
+
+
+<!-- 🌟 HERO SECTION SLIDER -->
+<section id="home" class="hero-slider">
+  <div class="slide active">
+    <img src="Images/houseeee.jpg" alt="movers">
+    <div class="hero-text">
+      <h2><span>Movers and Packers</span> in Chennai</h2>
+      <p>Trusted by <span>1000+ families</span> for safe, affordable relocation across Chennai.</p>
+      <a href="#quote" class="btn-enquire">Enquire Now</a>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/unpack.jpg" alt="Packing Services">
+    <div class="hero-text">
+      <h2><span>Safe Packing</span> & Unpacking</h2>
+      <p>We use <span>high-quality materials</span> for maximum safety during relocation.</p>
+      <a href="#quote" class="btn-enquire">Enquire Now</a>
+    </div>
+  </div>
+
+  <div class="slide">
+    <img src="images/funture.png" alt="Team Moving">
+    <div class="hero-text">
+      <h2><span>Professional</span> Movers</h2>
+      <p>Our expert team ensures <span>hassle-free shifting</span> at the best price.</p>
+      <a href="#quote" class="btn-enquire">Enquire Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Inside your slider section -->
+<a href="#quote" class="enquiry-btn">Enquiry Now</a>
+
+
+
+
+<!-- ====== ABOUT US SECTION ====== -->
+
+<section id="about" class="about-section" style="padding: 4rem 6% 4rem 6%; background:#fff;">
+  <h2 style="text-align:center; font-size:2.2rem; font-weight:900; color:#222; margin-bottom:1rem;">
+    About <span style="color:#ff5733;">Movify Packers & Movers</span>
+  </h2>
+  <p style="max-width:760px; margin:0 auto; text-align:center; color:#555; font-size:1rem; line-height:1.6;">
+    At <strong>Movify Packers & Movers</strong>, we provide <em>safe, reliable, and affordable relocation services</em> 
+    across Chennai and Pan India. From household goods to vehicles, our expert team ensures 
+    <strong>zero damage, timely delivery, and complete customer satisfaction</strong>.
+  </p>
+
+  <!-- Box Container -->
+  <div class="about-boxes">
+    <div class="about-card">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Safe & Secure</h3>
+      <p>Every move handled with <strong>premium packing materials</strong> ensuring full protection.</p>
+    </div>
+    <div class="about-card">
+      <i class="fas fa-tags"></i>
+      <h3>Affordable Pricing</h3>
+      <p>Transparent and <em>budget-friendly</em> pricing with <strong>no hidden charges</strong>.</p>
+    </div>
+    <div class="about-card">
+      <i class="fas fa-user-tie"></i>
+      <h3>Professional Team</h3>
+      <p>Expert movers with <strong>years of experience</strong> in safe & hassle-free relocation.</p>
+    </div>
+    <div class="about-card">
+      <i class="fas fa-map-marked-alt"></i>
+      <h3>Pan India Network</h3>
+      <p>Relocation services from <strong>Kanyakumari to Kashmir</strong>, covering all major cities.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ====== SCROLL REVEAL SCRIPT ====== -->
+<script>
+  // reveal cards on scroll
+  const cards = document.querySelectorAll('.about-card');
+  const revealCards = () => {
+    let triggerBottom = window.innerHeight * 0.85;
+    cards.forEach(card => {
+      const cardTop = card.getBoundingClientRect().top;
+      if(cardTop < triggerBottom){ card.classList.add('show'); }
+    });
+  };
+  window.addEventListener('scroll', revealCards);
+  window.addEventListener('load', revealCards);
+</script>
+
+
+
+<!-- ===== Services Section ===== -->
+<section id="services" class="services">
+  <h2>Our <span>Services</span></h2>
+  <div class="service-container">
+    
+    <!-- Service Card -->
+    <div class="service-card">
+      <img src="Images/house_shiftting.jpeg" alt="Local Household Shifting">
+      <h3>Local Household Shifting</h3>
+      <p>Safe and secure shifting of your household items within the city with complete care and efficiency.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="Images/office.jpeg" alt="Office Shifting">
+      <h3> Residential & Commercial Moving</h3>
+    <p>Professional relocation services for both homes and offices, ensuring smooth and hassle-free moving.</p>
+    </div>
+
+      <div class="service-card">
+      <img src="Images/long_drive.jpeg" alt="Office Shifting">
+      <h3>Long Distance & All India Service</h3>
+      <p>Reliable long-distance moving across India with guaranteed safety and timely delivery of your belongings.</p>
+    </div>
+
+      <div class="service-card">
+      <img src="Images/office_relocation.jpeg" alt="Office Shifting">
+      <h3>Office Shifting</h3>
+      <p>Professional packing & moving of office equipment, furniture, and documents with minimal downtime.</p>
+    </div>
+
+      <div class="service-card">
+      <img src="Images/loading_unloading.jpeg" alt="Office Shifting">
+      <h3>Packers and Movers</h3>
+      <p>End-to-end relocation services including packing, loading, moving, unloading, and unpacking.</p>
+    </div>
+
+      <div class="service-card">
+      <img src="Images/intercity.png" alt="Office Shifting">
+      <h3>Intercity Relocation</h3>
+      <p>Hassle-free relocation between cities with safe packing and fast delivery.</p>
+    </div>
+
+      <div class="service-card">
+      <img src="Images/24house_work.jpeg" alt="Office Shifting">
+      <h3>24/7 Service Available</h3>
+       <p>Round-the-clock availability to meet your relocation needs at any time, any day.</p>
+    </div>
+
+      <div class="service-card">
+      <img src="Images/furniture_moving.jpeg" alt="Office Shifting">
+      <h3>Furniture Moving</h3>
+      <p>Specialized packing and moving for furniture of all sizes to prevent damage during transit.</p>
+    </div>
+
+      <div class="service-card">
+      <img src="Images/funture.png" alt="Office Shifting">
+      <h3> House Shifting Services</h3>
+      <p>Professional packing & moving of office equipment, furniture, and documents with minimal downtime.</p>
+    </div>
+  
+  <div class="service-card">
+      <img src="Images/Car.jpeg" alt="Office Shifting">
+      <h3>Car Transportation</h3>
+      <p>Secure and timely car transportation with specialized carriers and expert handling.</p>
+    </div>
+  <div class="service-card">
+      <img src="Images/packing.jpeg" alt="Office Shifting">
+      <h3>Household Goods Shifting</h3>
+      <p>Safe and efficient shifting of all household goods with reliable packing techniques.</p>
+    </div>
+  <div class="service-card">
+      <img src="Images/loading.jpeg" alt="Office Shifting">
+      <h3>Loading and Unloading Services</h3>
+      <p>Professional team to handle careful loading and unloading of goods without damage.</p>
+    </div>
+  <div class="service-card">
+      <img src="Images/unpack.jpeg" alt="Office Shifting">
+      <h3>Packing & Unpacking</h3>
+      <p>High-quality packing materials and expert unpacking services for a smooth relocation.</p>
+    </div>
+ <div class="service-card">
+      <img src="Images/Bike.jpeg" alt="Office Shifting">
+      <h3>Bike Transport Services</h3>
+      <p>Safe and quick bike shifting services across cities with specialized carriers.</p>
+    </div>
+     <div class="service-card">
+      <img src="Images/door.jpeg" alt="Office Shifting">
+      <h3>Door-to-Door Relocation Services</h3>
+      <p>Complete relocation from your old doorstep to your new home or office, stress-free.</p>
+    </div>
+
+
+   <!-- Add more cards here... -->
+
+  </div>
+</section>
+
+<!-- 🔹 Service Areas Section -->
+<section id="service-areas" class="service-areas">
+  <h2> Our <span>Service Areas</span></h2>
+  <p class="intro-text">
+    We provide professional packers and movers services from <b>Chennai</b> to 
+    all major cities across India. Find your location below 👇
+  </p>
+
+  <div class="areas-container">
+
+    <!-- 🔹 Chennai Local Shifting -->
+    <div class="areas-column">
+      
+      <h3 class="city-heading">
+     <span class="icon">🚚</span> Chennai Locations
+     </h3>
+
+      <ul>
+
+        <li><span class="icon">📦</span>  Packers and Movers in Adyar</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Anna Nagar</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Ambattur</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Sholinganallur</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Perambur</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Arumbakkam</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Alwarpet</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Aminjikarai</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Alandur</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Ayappakkam</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Besant Nagar</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Chromepet</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Egmore</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Guindy</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Kodambakkam</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Nungambakkam</li>
+        <li><span class="icon">📦</span>  Packers and Movers in T. Nagar</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Velachery</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Tambaram</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Porur</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Medavakkam</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Pallavaram</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Perambur</li>
+        <li><span class="icon">📦</span>  Packers and Movers in Mylapore</li>
+      </ul>
+    </div>
+
+    <!-- 🔹 Chennai to Major Cities -->
+    <div class="areas-column">
+      
+       <h3 class="city-heading">
+     <span class="icon">🚚</span> Chennai → Major Cities
+     </h3>
+         
+      <ul>
+        <li><span class="icon">📦</span> Packers and Movers in Bangalore</li>
+        <li><span class="icon">📦</span> Packers and Movers in Mumbai</li>
+        <li><span class="icon">📦</span> Packers and Movers in Delhi</li>
+        <li><span class="icon">📦</span> Packers and Movers in Hyderabad</li>
+        <li><span class="icon">📦</span> Packers and Movers in Pune</li>
+        <li><span class="icon">📦</span> Packers and Movers in Kolkata</li>
+        <li><span class="icon">📦</span> Packers and Movers in Ahmedabad</li>
+        <li><span class="icon">📦</span> Packers and Movers in Jaipur</li>
+        <li><span class="icon">📦</span> Packers and Movers in Coimbatore</li>
+        <li><span class="icon">📦</span> Packers and Movers in Patna</li>
+        <li><span class="icon">📦</span> Packers and Movers in Trivandrum</li>
+        <li><span class="icon">📦</span> Packers and Movers in Ranchi</li>
+        <li><span class="icon">📦</span> Packers and Movers in Indore</li>
+        <li><span class="icon">📦</span> Packers and Movers in Lucknow</li>
+        <li><span class="icon">📦</span> Packers and Movers in Nagpur</li>
+        <li><span class="icon">📦</span> Packers and Movers in Surat</li>
+        <li><span class="icon">📦</span> Packers and Movers in Chandigarh</li>
+        <li><span class="icon">📦</span> Packers and Movers in Noida</li>
+        <li><span class="icon">📦</span> Packers and Movers in Gurugram</li>
+      </ul>
+    </div>
+
+    <!-- 🔹 New Column: Chennai to Places -->
+    <div class="areas-column">
+       <h3 class="city-heading">
+       <span class="icon">🚚</span> Chennai → Places
+       </h3>
+
+      <ul>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Visakhapatnam</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Guntur</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Salem</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Coimbatore</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Vellore</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Erode</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Tirunelveli</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Vijayawada</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Madurai</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Trichy</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Nellore</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Vadodara</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Goa</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Bhopal</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Bhubaneswar</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Dehradun</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Asansol</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Kerala</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Bihar</li>
+        <li><span class="icon">📦</span>  Packers and Movers Chennai to Hissar</li>
+      </ul>
+    </div>
+
+    <!-- 🔹 Pan India Full Coverage -->
+    <div class="areas-column full">
+
+        <h3 class="city-heading">
+       <span class="icon">🚚</span> 🇮🇳 Pan India Coverage
+       </h3>
+
+       <ul>
+        <li><span class="icon">📦</span> Packers and Movers in Tamil Nadu – Chennai, Madurai, Coimbatore, Trichy, Salem</li>
+        <li><span class="icon">📦</span> Packers and Movers in Andhra Pradesh – Vijayawada, Vizag, Tirupati, Nellore</li>
+        <li><span class="icon">📦</span> Packers and Movers in Karnataka – Bangalore, Mysore, Mangalore,Hubli</li>
+        <li><span class="icon">📦</span> Packers and Movers in Kerala – Kochi, Trivandrum, Kozhikode, Thrissur</li>
+        <li><span class="icon">📦</span> Packers and Movers in Maharashtra – Mumbai, Pune, Nagpur,Nashik</li>
+        <li><span class="icon">📦</span> Packers and Movers in Delhi NCR – Delhi, Noida, Gurgaon,Ghaziabad</li>
+        <li><span class="icon">📦</span> Packers and Movers in Telangana – Hyderabad, Warangal,Karimnagar</li>
+        <li><span class="icon">📦</span> Packers and Movers in West Bengal – Kolkata, Siliguri,Durgapur</li>
+        <li><span class="icon">📦</span> Packers and Movers in Rajasthan – Jaipur, Udaipur</li>
+        <li><span class="icon">📦</span> Packers and Movers in Punjab & Haryana – Chandigarh, Ludhiana</li>
+        <li><span class="icon">📦</span> Packers and Movers in Uttar Pradesh – Lucknow, Kanpur</li>
+        <li><span class="icon">📦</span> Packers and Movers in Bihar & Jharkhand – Patna, Ranchi</li>
+        <li><span class="icon">📦</span> Packers and Movers in Madhya Pradesh & Chhattisgarh – Bhopal, Raipur</li>
+        <li><span class="icon">📦</span> Packers and Movers in Gujarat – Ahmedabad, Surat, Rajkot</li>
+        <li><span class="icon">📦</span> Packers and Movers in North East – Guwahati, Shillong, Gangtok</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!--Get a free Quote -->
+<section id="enquiry" class="enquiry-section">
+  <h2> Our <span>Enquiry Form</span></h2>
+
+  <div class="enquiry-container">
+
+    <!-- 🔹 Left side animated image -->
+    <div class="image-container">
+      <img src="Images/only-track.webp" alt="Packers and Movers" id="enquiryImg">
+    </div>
+
+    <!-- 🔹 Right side form -->
+    <div id="quote" class="outer-quote-box">
+      <div class="free-quote-form">
+        <form id="quoteForm">
+          <label for="fullName">Full Name:</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required>
+
+          <label for="mobile">Mobile Number:</label>
+          <input type="tel" id="mobile" name="mobile" placeholder="Enter mobile number" required>
+
+          <label for="email">Your Email ID:</label>
+          <input type="email" id="email" name="email" placeholder="Enter email address" required>
+
+          <label for="movingDate">Moving Date:</label>
+          <input type="date" id="movingDate" name="movingDate" required>
+
+          <label for="relocationFrom">Relocation From:</label>
+          <input type="text" id="relocationFrom" name="relocationFrom" placeholder="City / Location" required>
+
+          <label for="relocationTo">Relocation To:</label>
+          <input type="text" id="relocationTo" name="relocationTo" placeholder="City / Location" required>
+
+          <label for="moveType">Move Type:</label>
+          <select id="moveType" name="moveType" required>
+            <option value="">Select Move Type</option>
+            <option value="Within City">Within City</option>
+            <option value="Outside City">Outside City</option>
+          </select>
+
+          <button type="submit">Submit</button>
+        </form>
+
+        <div class="checkmark">&#10004;</div>
+        <canvas id="confetti-canvas"></canvas>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- 🌟 Our Strengths Section -->
+ <section id="why" class="why-section">
+  <h2> Why <span>Choose Us</span></h2>
+
+  
+<section class="strength-section">
+
+    <!-- Left Side -->
+    <div class="strength-details">
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-clock"></i> 6+ Years of Experience</h3>
+        <p>Trusted expertise in the logistics & relocation industry.</p>
+      </div>
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-globe"></i> Domestic & International Delivery</h3>
+        <p>Seamless relocation services across India and abroad.</p>
+      </div>
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-building"></i> Office & Warehouse Shifting</h3>
+        <p>Hassle-free moves for businesses and mandatory warehouse relocations.</p>
+      </div>
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-box"></i> Household & Device Shifting</h3>
+        <p>Safe handling of furniture, electronics, and delicate equipment.</p>
+      </div>
+    </div>
+
+    <!-- Image Center -->
+    <div class="strength-image">
+      <img src="Images/movers.jpg"Our Strengths>
+    </div>
+
+    <!-- Right Side -->
+    <div class="strength-details">
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-headset"></i> 24/7 Customer Support</h3>
+        <p>Always available to assist you at every step of the move.</p>
+      </div>
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-truck-fast"></i> GPS-Enabled Vehicles</h3>
+        <p>Real-time tracking for complete transparency and safety.</p>
+      </div>
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-clock-rotate-left"></i> Fast & On-Time Delivery</h3>
+        <p>We value your time and ensure timely relocation.</p>
+      </div>
+      <div class="strength-box">
+        <h3><i class="fa-solid fa-lock"></i> Safe & Secure Services</h3>
+        <p>Extra care for your belongings with professional packing & handling.</p>
+      </div>
+    </div>
+  </section>
+ </section>
+
+     <!-- work process -->
+
+  <section class="process-section">
+    <h2>Our Work Process – How It Works</h2>
+    <div class="process-flow">
+
+      <div class="process-step">
+        <i class="fas fa-handshake"></i>
+        <h3>Discussion</h3>
+        <p>Share your shifting details with us via call, WhatsApp, or enquiry form.</p>
+      </div>
+
+      <div class="process-step">
+        <i class="fas fa-file-signature"></i>
+        <h3>Planning</h3>
+        <p>We arrange a pre-move survey and plan everything for a smooth relocation.</p>
+      </div>
+
+      <div class="process-step">
+        <i class="fas fa-box-open"></i>
+        <h3>Packing</h3>
+        <p>Our experts use high-quality packing materials to secure all your items safely.</p>
+      </div>
+
+      <div class="process-step">
+        <i class="fas fa-truck"></i>
+        <h3>Transport</h3>
+        <p>We transport your goods with care and deliver them on time to your new place.</p>
+      </div>
+
+      <div class="process-step">
+        <i class="fas fa-smile"></i>
+        <h3>Happy Client</h3>
+        <p>We help unpack and ensure you enjoy a stress-free relocation experience.</p>
+      </div>
+
+ 
+      <!-- Truck runs under boxes -->
+      <div class="truck">
+        <i class="fas fa-truck-moving"></i>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- 🔹 Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <h2> Our <span>Gallery</span></h2>
+  <div class="gallery-container">
+    <img src="Images/gallery1.jpeg" alt="Gallery 1">
+    <img src="Images/gallery2.jpeg" alt="Gallery 2">
+    <img src="Images/gallery3.jpeg" alt="Gallery 3">
+    <img src="Images/gallery5.jpeg" alt="Gallery 5">
+    <img src="Images/gallery6.jpeg" alt="Gallery 6">
+    <img src="Images/gallery7.jpeg" alt="Gallery 7">
+    <img src="Images/gallery8.png" alt="Gallery 8">
+
+  </div>
+</section>
+
+<!-- Contact Us -->
+<section class="contact-section" id="contact">
+
+  <h2 style="text-align:center; font-size:2.2rem; font-weight:900; color:#052a4e; margin-bottom:1rem;">
+    Contact <span style="color:#ff5733;">Us</span>
+  </h2>
+
+ 
+  <!-- Map -->
+  <section class="map-section">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0305974144517!2d80.10187537454673!3d13.130285387197343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a528d4b90d77b6d%3A0x3f7bbf9f899f9a8!2sNo%3A90%2F1%2C%205th%20Street%2C%20Kamaraj%20Nagar%2C%20Avadi%2C%20Chennai%2C%20Tamil%20Nadu%20600071!5e0!3m2!1sen!2sin!4v1693654000000!5m2!1sen!2sin" 
+      width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Footer Content -->
+  <div class="contact-links contact-row">
+    <!-- Quick Links -->
+    <div class="footer-block quick-links-block">
+      <h3> Quick Links</h3>
+      <ul class="quick-links-list">
+        <li><i class="fas fa-home"></i> <a href="#home">  Home</a></li>
+        <li><i class="fas fa-users"></i> <a href="#about">  About Us</a></li>
+        <li><i class="fas fa-cogs"></i> <a href="#services">  Our Services</a></li>
+        <li><i class="fas fa-question-circle"></i> <a href="#why">  Why</a></li>
+        <li><i class="fas fa-images"></i> <a href="#gallery">  Gallery</a></li>
+        <li><i class="fas fa-phone"></i> <a href="#contact">  Contact Us</a></li>
+      </ul>
+    </div>
+    <!-- Business Hours -->
+    <div class="footer-block business-hours-block">
+      <h3> Business Hours</h3>
+      <ul class="hours-list">
+        <li><i class="fas fa-clock"></i> <span> Monday:</span> 24 Hours</li>
+        <li><i class="fas fa-clock"></i> <span> Tuesday:</span> 24 Hours</li>
+        <li><i class="fas fa-clock"></i> <span> Wednesday:</span> 24 Hours</li>
+        <li><i class="fas fa-clock"></i> <span> Thursday:</span> 24 Hours</li>
+        <li><i class="fas fa-clock"></i> <span> Friday:</span> 24 Hours</li>
+        <li><i class="fas fa-clock"></i> <span> Saturday:</span> 9:00 AM – 11:00 PM</li>
+        <li><i class="fas fa-clock"></i> <span> Sunday:</span> 9:00 AM – 11:00 PM</li>
+      </ul>
+    </div>
+
+      <div class="footer-block services-block">
+        <h3>Our Services</h3>
+        <ul>
+          <li> <i class="fas fa-truck"></i> Local Household Shifting</li>
+          <li> <i class="fas fa-truck"></i> Residential & Commercial Moving</li>
+          <li> <i class="fas fa-truck"></i> Long Distance & All India Service</li>
+          <li> <i class="fas fa-truck"></i> Packers and Movers</li>
+          <li> <i class="fas fa-truck"></i> Intercity Relocation</li>
+          <li> <i class="fas fa-truck"></i> Door-to-Door Relocation Services</li>
+          <li> <i class="fas fa-truck"></i> 24/7 Service Available</li>
+          <li> <i class="fas fa-truck"></i> Furniture Moving</li>
+          <li> <i class="fas fa-truck"></i> House Shifting Services</li>
+          <li> <i class="fas fa-truck"></i> Household Goods Shifting</li>
+          <li> <i class="fas fa-truck"></i> Loading and Unloading Services</li>
+          <li> <i class="fas fa-truck"></i> Packing & Unpacking</li>
+          <li> <i class="fas fa-truck"></i> Bike Transport Services</li>
+          <li> <i class="fas fa-truck"></i> International Moving</li>
+        </ul>
+      </div>
+
+    <!-- Service Areas -->
+    <div class="footer-block service-areas-block">
+      <h3> Service Areas</h3>
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Adyar</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Anna Nagar</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Tambaram</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Porur</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Velachery</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Sholinganallur</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Ambattur</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Perambur</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Arumbakkam</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Alwarpet</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Aminjikarai</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Alandur</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Ayappakkam</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Besant Nagar</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Egmore</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Guindy</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Kodambakkam</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Nungambakkam</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in T. Nagar</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Medavakkam</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Pallavaram</li>
+        <li><i class="fas fa-map-marker-alt"></i> Packers and Movers in Mylapore</li>
+       
+      </ul>
+    </div>
+    <!-- Address & Contact -->
+    <div class="footer-block contactus-block">
+      <h3><span><i class="fas fa-address-card"></i></span> Contact Us</h3>
+      <p class="address-row"><i class="fas fa-map-marker-alt"></i> No:90/1, 5th Street, Kamaraj Nagar, Avadi, Chennai – 600071</p>
+      <p class="address-row phone-center"><i class="fas fa-phone-alt"></i> +91 7550127216</p>
+      <p class="address-row"><i class="fas fa-envelope"></i> themovify25@gmail.com</p>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/917550127216" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <br>
+        <a href="#quote" class="footer-contact-btn">Contact Us</a>
+
+    </div>
+  </div>
+
+  <!-- Payments -->
+  <div class="payments">
+
+    <h6 style="text-align:center; font-size:1.5rem; font-weight:900; color:#052a4e; margin-bottom:1rem;">
+    We <span style="color:#ff5733;">Accept</span>
+  </h6>
+<br>
+    <div class="payments-icons">
+      <i class="fab fa-cc-visa"></i>
+      <i class="fab fa-cc-mastercard"></i>
+      <i class="fab fa-cc-amex"></i>
+      <i class="fab fa-cc-paypal"></i>
+      <i class="fab fa-google-pay"></i>
+      <i class="fab fa-apple-pay"></i>
+    </div>
+   </div>
+
+     <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>© 2025 <strong>Movify Packers & Movers</strong>. All Rights Reserved.</p>
+  </div>
+</section>
+<!-- Floating Buttons -->
+<div class="floating-icons">
+  <!-- Call Button -->
+  <a href="tel:+917550127216" class="call">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/917550127216" target="_blank" class="whatsapp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+
+<!-- Scroll to Top -->
+<button id="scrollTopBtn">
+  <span class="circle-anim"></span>
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+  <script src="script.js"></script>
+
+</div>
+</body>
+</html>
