@@ -1542,9 +1542,10 @@ html {
   color: #aaa;
   font-size: 13px;
   line-height: 1.6;
-  white-space: nowrap;   /* ✅ keeps everything in a single line */
-  overflow: hidden;      /* hides overflow if screen is too small */
-  text-overflow: ellipsis; /* adds ... if it overflows */
+}
+
+.footer-bottom::-webkit-scrollbar {
+  display: none; /* hide scrollbar for clean look */
 }
 
 .footer-bottom .movify-name {
@@ -1562,11 +1563,20 @@ html {
   color: #ffd700; /* brighter gold on hover */
 }
 
+/* Hide line break by default (desktop) */
+.mobile-break {
+  display: none;
+} 
+
 /* 📱 Mobile optimization */
 @media (max-width: 600px) {
   .footer-bottom {
-    font-size: 11px; /* smaller text so it fits */
-    padding: 8px;
+    font-size: 12px; /* smaller text so it fits */
+    padding: 10px;
+   
+  }
+  mobile-break {
+    display: inline;   /* ✅ forces line break only on mobile */
   }
 }
 
