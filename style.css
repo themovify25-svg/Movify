@@ -1541,7 +1541,36 @@ html {
   background: #041c29;
   color: #aaa;
   font-size: 13px;
+  line-height: 1.6;
+  white-space: nowrap;   /* ✅ keeps everything in a single line */
+  overflow: hidden;      /* hides overflow if screen is too small */
+  text-overflow: ellipsis; /* adds ... if it overflows */
 }
+
+.footer-bottom .movify-name {
+  font-weight: bold;
+  color: #ffffff; /* white bold */
+}
+
+.footer-bottom .alkj-link {
+  font-weight: bold;
+  color: gold;
+  text-decoration: none;
+}
+
+.footer-bottom .alkj-link:hover {
+  color: #ffd700; /* brighter gold on hover */
+}
+
+/* 📱 Mobile optimization */
+@media (max-width: 600px) {
+  .footer-bottom {
+    font-size: 11px; /* smaller text so it fits */
+    padding: 8px;
+  }
+}
+
+
 /* Icon Animation */
 .footer-block i,
 .social-icons a i,
